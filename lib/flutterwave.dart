@@ -50,9 +50,9 @@ class PaymentService {
 
       final Flutterwave flutterwave = Flutterwave(
           context: context!,
-          publicKey: 'FLWPUBK_TEST-4c53c5d7b8b3bb8bac87c5c1f65739e6-X',
+          publicKey: 'YOUR FLUTTERWAVE API KEY HERE',
           currency: 'NGN',
-          redirectUrl: 'https://facebook.com',
+          redirectUrl: 'https://facebook.com', //YOUR REDIRECTION URL
           txRef: _generateRandomString(
               10), //you can create your own function to specify your own txRef
           amount: amount!,
